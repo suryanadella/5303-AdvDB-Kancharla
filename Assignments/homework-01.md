@@ -19,3 +19,15 @@ CREATE TABLE IF NOT EXISTS `gift_options` (
         primary key(allowGiftReceipt)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
+
+### image_entities.sql
+
+```sql
+    CREATE TABLE IF NOT EXISTS `image_entities` (
+        `thumbnailImage` varchar(150) NOT NULL,
+        `mediumImage` varchar(150) NOT NULL,
+        `largeImage` varchar(150) NOT NULL,
+        `entityType` varchar(9) NOT NULL,
+        primary key(thumbnailImage)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```
