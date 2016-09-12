@@ -31,3 +31,18 @@ CREATE TABLE IF NOT EXISTS `gift_options` (
         primary key(thumbnailImage)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
+
+### market_place_price.sql
+
+```sql
+        CREATE TABLE IF NOT EXISTS market_place_price (
+			price double NOT NULL,
+			sellerInfo varchar(50) NOT NULL,
+			standardShipRate double NOT NULL,
+			twoThreeDayShippingRate double NOT NULL,
+			availableOnline booelan NOT NULL,
+			clearance boolean NOT NULL,
+			offerType varchar(20) NOT NULL,
+		primary key(price)
+	) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```	
