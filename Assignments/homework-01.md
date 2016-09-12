@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `gift_options` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
 
-### image_entities.sql
+#### image_entities.sql
 
 ```sql
 CREATE TABLE IF NOT EXISTS `image_entities` (
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `image_entities` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
 
-### market_place_price.sql
+#### market_place_price.sql
 
 ```sql
 CREATE TABLE IF NOT EXISTS market_place_price (
