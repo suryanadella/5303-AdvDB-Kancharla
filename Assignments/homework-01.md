@@ -46,3 +46,46 @@ CREATE TABLE IF NOT EXISTS market_place_price (
 		primary key(price)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```	
+
+
+#### products.sql
+
+```sql
+
+CREATE TABLE IF NOT EXISTS products (
+itemId int(10) NOT NULL,
+parentItemId int(10) NOT NULL,
+name varchar(250) NOT NULL,
+salePrice float(6,2) NOT NULL,
+upc bigint(12) NOT NULL,
+categoryPath varchar(123) NOT NULL,
+shortDescription text(1200) NOT NULL,
+longDescription text(6000) NOT NULL,
+brandName varchar(36) NOT NULL,
+thumbnailImage varchar(149) NOT NULL,
+mediumImage varchar(149) NOT NULL,
+largeImage varchar(149) NOT NULL,
+productTrackingUrl varchar(450) NOT NULL,
+modelNumber varchar(60) NOT NULL,
+productUrl varchar(350) NOT NULL,
+categoryNode varchar(25) NOT NULL,
+stock varchar(13) NOT NULL,
+addToCartUrl varchar(240) NOT NULL,
+affiliateAddToCartUrl varchar(300) NOT NULL,
+offerType varchar(20) NOT NULL,
+msrp double NOT NULL,
+standardShipRate double NOT NULL,
+color varchar(12) NOT NULL,
+customerRating varchar(6) NOT NULL,
+numReviews int(6) NOT NULL,
+customerRatingImage varchar(50) NOT NULL,
+maxItemsInOrder int(6) NOT NULL,
+size varchar(50) NOT NULL,
+sellerInfo varchar(50) NOT NULL,
+age varchar(16) NOT NULL,
+gender varchar(6) NOT NULL,
+isbn bigint(16) NOT NULL,
+preOrderShipsOn varchar(20) NOT NULL,
+primary key(itemId,parentItemId)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```
