@@ -11,11 +11,11 @@
 
 #### gift_options.sql
 
-...sql
-CREATE TABLE IF NOT EXISTS gift_options (
-allowGiftWrap boolean NOT NULL,
-allowGiftMessage boolean NOT NULL,
-allowGiftReceipt boolean NOT NULL
- primary key(allowGiftReceipt)
+```sql
+CREATE TABLE IF NOT EXISTS `gift_options` (
+        `allowGiftWrap` BOOLEAN NOT NULL,
+        `allowGiftMessage` BOOLEAN NOT NULL,
+        `allowGiftReceipt` BOOLEAN NOT NULL,
+        primary key(allowGiftReceipt)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-...
+```
