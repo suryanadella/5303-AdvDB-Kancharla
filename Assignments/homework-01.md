@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS image_entities (
         mediumImage varchar(149) NOT NULL,
         largeImage varchar(149) NOT NULL,
         entityType varchar(9) NOT NULL,
-    PRIMARY KEY ( itemId ) ,
+    	PRIMARY KEY ( itemId ) ,
 	FOREIGN KEY ( itemId ) REFERENCES products( itemId )
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
