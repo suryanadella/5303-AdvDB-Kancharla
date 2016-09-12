@@ -25,28 +25,32 @@ FOREIGN KEY ( itemId ) REFERENCES products( itemId )
 #### image_entities.sql
 
 ```sql
-CREATE TABLE IF NOT EXISTS `image_entities` (
-        `thumbnailImage` varchar(150) NOT NULL,
-        `mediumImage` varchar(150) NOT NULL,
-        `largeImage` varchar(150) NOT NULL,
-        `entityType` varchar(9) NOT NULL,
-        primary key(thumbnailImage)
+CREATE TABLE IF NOT EXISTS image_entities (
+		itemId INT( 10 ) NOT NULL ,
+        thumbnailImage varchar(149) NOT NULL,
+        mediumImage varchar(149) NOT NULL,
+        largeImage varchar(149) NOT NULL,
+        entityType varchar(9) NOT NULL,
+    PRIMARY KEY ( itemId ) ,
+	FOREIGN KEY ( itemId ) REFERENCES products( itemId )
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
 
 #### market_place_price.sql
 
 ```sql
-CREATE TABLE IF NOT EXISTS market_place_price (
-			price double NOT NULL,
-			sellerInfo varchar(50) NOT NULL,
-			standardShipRate double NOT NULL,
-			twoThreeDayShippingRate double NOT NULL,
-			availableOnline booelan NOT NULL,
-			clearance boolean NOT NULL,
-			offerType varchar(20) NOT NULL,
-		primary key(price)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+CREATE TABLE IF NOT EXISTS market_place_price(
+		itemId INT( 10 ) NOT NULL ,
+		price DOUBLE NOT NULL ,
+		sellerInfo VARCHAR( 50 ) NOT NULL ,
+		standardShipRate DOUBLE NOT NULL ,
+		twoThreeDayShippingRate DOUBLE NOT NULL ,
+		availableOnline BOOLEAN NOT NULL ,
+		clearance BOOLEAN NOT NULL ,
+		offerType VARCHAR( 20 ) NOT NULL ,
+		PRIMARY KEY ( itemId ) ,
+		FOREIGN KEY ( itemId ) REFERENCES products( itemId )
+) ENGINE = INNODB DEFAULT CHARSET = latin1;
 ```	
 
 
