@@ -12,12 +12,14 @@
 #### gift_options.sql
 
 ```sql
-CREATE TABLE IF NOT EXISTS `gift_options` (
-        `allowGiftWrap` BOOLEAN NOT NULL,
-        `allowGiftMessage` BOOLEAN NOT NULL,
-        `allowGiftReceipt` BOOLEAN NOT NULL,
-        primary key(allowGiftReceipt)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+CREATE TABLE IF NOT EXISTS gift_options(
+itemId INT( 10 ) NOT NULL ,
+allowGiftWrap BOOLEAN NOT NULL ,
+allowGiftMessage BOOLEAN NOT NULL ,
+allowGiftReceipt BOOLEAN NOT NULL ,
+PRIMARY KEY ( itemId ) ,
+FOREIGN KEY ( itemId ) REFERENCES products( itemId )
+) ENGINE = INNODB DEFAULT CHARSET = latin1;
 ```
 
 #### image_entities.sql
