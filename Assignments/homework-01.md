@@ -18,3 +18,4 @@ allowGiftMessage boolean NOT NULL,
 allowGiftReceipt boolean NOT NULL
  primary key(allowGiftReceipt)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+...
