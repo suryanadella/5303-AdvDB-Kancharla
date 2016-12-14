@@ -1,1 +1,68 @@
+PRINT OUT OF THE ANSWERS FROM QUERIES
+1.Run find 5 star reviews?: y
+   OUTPUT : 1083
 
+
+2.find all the restaurants in city X?: y
+Enter name of the city: Las Vegas
+OUTPUT:20323
+
+
+3.Find the restaurants within 5 miles of lat , lon:y
+OUTPUT:291
+
+
+4. Find all the reviews for restaurant X:y
+Enter business id for the review: hB3kH0NgM5LkEWMnMMDnHw
+OUTPUT:20
+
+
+5.Find all the reviews for restaurant X that are 5 stars :y
+Enter business id for the review: P1fJb2WQ1mXoiudj8UE44w
+OUTPUT:25
+
+
+
+6.Find all the users that have been 'yelping' for over 5 years :y
+OUTPUT:
+{u'yelping_since': u'2011-09', u'votes': {u'funny': 1, u'useful': 6, u'cool': 0}, u'review_count': 3, u'user_id': u'9VjrmRRwAkiuEvt8UxSw1Q', u'name': u'Chris', u'type': u'user', u'friends': [u'8S-UrKLKRsJhv6mfpCV7lQ', u'Icc_dfH0FA5CcH12g4DXsQ', u'IyzQZPXBeNvQSONMXDAohw', u'Lgt6XzoyzCKqbkjDHUKMpA', u'ha1Ze2lgEARgTjKb9HCkIQ', u'gfYOzIonbto4gKy9Ift67A', u'L1wBYObp84CcoHPD3pn34w', u'0vp-dZZ0AriNLEbU-0z_Rw'], u'fans': 0, u'average_stars': 1.0, u'compliments': {}, u'_id': ObjectId('5848df763f22ed58a752af44'), u'elite': []}
+{u'yelping_since': u'2011-09', u'votes': {u'funny': 7, u'useful': 29, u'cool': 5}, u'review_count': 19, u'user_id': u'gh2_LticbfRCOlfRXx3fPQ', u'name': u'Angela', u'type': u'user', u'friends': [u'Ed3tXk7TEM4BvmASpqQYEw', u'5cDMXc3qwNeDPX-MyCNubQ', u'-SC91ZBxiD6zLXwaW-NjQQ', u'KCCjPh34H2c_M8pAZPgXTA', u'stexHRvURjdC4YPlQbEkEQ'], u'fans': 0, u'average_stars': 3.15, u'compliments': {u'more': 1}, u'_id': ObjectId('5848df763f22ed58a752af45'), u'elite': []}
+{u'yelping_since': u'2011-12', u'votes': {u'funny': 3, u'useful': 25, u'cool': 6}, u'review_count': 18, u'user_id': u'Qc904I8emqz_RSeGv5bMnA', u'name': u'Hannah', u'type': u'user', u'friends': [u'M-cg8raooXZKV8NsNmQGjw', u'lGuwH7k9-dJ3C4yc3Tb54w', u'IMbzZr1MqnbfByBcktfpgQ'], u'fans': 0, u'average_stars': 3.83, u'compliments': {u'cool': 1, u'more': 1}, u'_id': ObjectId('5848df763f22ed58a752af46'), u'elite': []}
+{u'yelping_since': u'2012-01', u'votes': {u'funny': 0, u'useful': 2, u'cool': 0}, u'review_count': 3, u'user_id': u'0bS4Xdg6xyXKepmayuh-8Q', u'name': u'Steve', u'type': u'user', u'friends': [], u'fans': 0, u'average_stars': 3.0, u'compliments': {}, u'_id': ObjectId('5848df763f22ed58a752af47'), u'elite': []}
+{u'yelping_since': u'2012-01', u'votes': {u'funny': 1, u'useful': 8, u'cool': 0}, u'review_count': 7, u'user_id': u'x6KYfADVQQsep1RcxQ2W_g', u'name': u'Shannon', u'type': u'user', u'friends': [], u'fans': 1, u'average_stars': 2.43, u'compliments': {}, u'_id': ObjectId('5848df763f22ed58a752af48'), u'elite': []}
+{u'yelping_since': u'2012-01', u'votes': {u'funny': 0, u'useful': 0, u'cool': 0}, u'review_count': 3, u'user_id': u'3vgNYwAbVFsU0SfkIltpOg', u'name': u'Kyle', u'type': u'user', u'friends': [], u'fans': 0, u'average_stars': 4.0, u'compliments': {}, u'_id': ObjectId('5848df763f22ed58a752af49'), u'elite': []}
+{u'yelping_since': u'2012-01', u'votes': {u'funny': 0, u'useful': 0, u'cool': 0}, u'review_count': 1, u'user_id': u'TQ1gOG_gsEF4iTE8M9juaA', u'name': u'Cole', u'type': u'user', u'friends': [], u'fans': 0, u'average_stars': 5.0, u'compliments': {}, u'_id': ObjectId('5848df763f22ed58a752af4a'), u'elite': []}
+{u'yelping_since': u'2012-01', u'votes': {u'funny': 0, u'useful': 0, u'cool': 0}, u'review_count': 1, u'user_id': u'zij94_iRcsUHH-hY1RJyGA', u'name': u'Angela', u'type': u'user', u'friends': [u'Z-bbps1ppq-4jIVL90-ZYQ', u'HWLC-qBcuFXJ0MkV8LSA-A', u'pCQz3sc_7rI-be4-Ek6SRg', u'LDgXgMgr1w66WqjvJKBG_w', u'CgL7Y2uJGZ0Ez9__8r2iLw', u'J3-BDqJQYaYiOnUcjdhuDQ', u'DlCtdbceo4YNSI53cCL2lg', u'x2YRNgepZTPtK2UJNTTxuQ', u'KHegFds21a_BcPx7_zbmHw', u'_y8Ccwu6hdc-Kn79QaDARA', u'PDBOTjBnJ5_r1vjeXxcwgw', u'4zad3D8Tlt7r2OAmgr-xKA', u'ubmTBCAR5SpoS0MBloSLFA', u'OrKTg8giugIcNopymvhAtQ', u'CwEw2M7IfXVhj4mkIEGSEA', u'WPcUQGYE9-ron7DHKTfiBg', u'zaR9PHn1T2pt6ozW1pfmrQ', u'd9OpCGxR0RQTXwZc0DWBBw', u'pFEn4BfygyZmFkPtOe5Vqg', u'G4BzuOKhEKwDI_FqFLfAOg'], u'fans': 1, u'average_stars': 5.0, u'compliments': {}, u'_id': ObjectId('5848df763f22ed58a752af4b'), u'elite': []}
+{u'yelping_since': u'2012-04', u'votes': {u'funny': 0, u'useful': 0, u'cool': 0}, u'review_count': 2, u'user_id': u'AeUdBbzKRSy0G_SQ7qMjJg', u'name': u'Tony', u'type': u'user', u'friends': [u'smmOtecDCdqyVoS9kOauSQ', u'w9QZcCiCKDcIbfhk1_oa5Q', u'30XxHVhSKcEZPc2BSqQreg', u'c02D7hUNpDeuE86zqIac0A', u'sHQuzx64PgcZbybdxphwxw', u'Q-Wb-HDOJBYtiELATSqayA'], u'fans': 0, u'average_stars': 1.0, u'compliments': {}, u'_id': ObjectId('5848df763f22ed58a752af4c'), u'elite': []}
+{u'yelping_since': u'2012-04', u'votes': {u'funny': 11, u'useful': 37, u'cool': 17}, u'review_count': 26, u'user_id': u'lL5h32tQSNvZpf-qNTBRrA', u'name': u'LaGabriel', u'type': u'user', u'friends': [u'E6gTe_vgho3xOodldUMo9w', u'64fBRuROK48AUFGjtd_fzQ', u'QWkXgWM7jjIruQ4Q4wzZWg', u'OkIww7cOQHs4MnIXtjdIOw', u'y59hyUcxyA8pQBM3QY04zg', u'ePxzwqgNLQnYoObzLYhYvg', u'o3iirxits72rdxJYYMWg9A'], u'fans': 0, u'average_stars': 4.38, u'compliments': {u'note': 2, u'plain': 4}, u'_id': ObjectId('5848df763f22ed58a752af4d'), u'elite': []}
+{u'yelping_since': u'2012-04', u'votes': {u'funny': 0, u'useful': 5, u'cool': 5}, u'review_count': 14, u'user_id': u'hycPeie0d3IfP6TeXbtzNw', u'name': u'Dave', u'type': u'user', u'friends': [], u'fans': 0, u'average_stars': 3.58, u'compliments': {}, u'_id': ObjectId('5848df763f22ed58a752af4e'), u'elite': []}
+{u'yelping_since': u'2012-04', u'votes': {u'funny': 1, u'useful': 0, u'cool': 0}, u'review_count': 2, u'user_id': u'U0RkOYGP0OzOkjn6acJmvQ', u'name': u'Sunshine', u'type': u'user', u'friends': [], u'fans': 0, u'average_stars': 4.5, u'compliments': {}, u'_id': ObjectId('5848df763f22ed58a752af4f'), u'elite': []}
+{u'yelping_since': u'2012-07', u'votes': {u'funny': 8, u'useful': 25, u'cool': 3}, u'review_count': 13, u'user_id': u'3MDZIX3s4TgRPRcmQhCDPA', u'name': u'Sarah', u'type': u'user', u'friends': [u'BMhGWrm3PfNxwXN4bSzzhQ', u'-VDx2hArDikiwSq-1GNlHw', u'NDgyw5xzpwDktOppREPFKQ'], u'fans': 3, u'average_stars': 4.07, u'compliments': {}, u'_id': ObjectId('5848df763f22ed58a752af50'), u'elite': []}
+{u'yelping_since': u'2012-07', u'votes': {u'funny': 0, u'useful': 0, u'cool': 0}, u'review_count': 3, u'user_id': u'Po0R9Sj1xJcBS_9a6xVpow', u'name': u'Tracy', u'type': u'user', u'friends': [], u'fans': 0, u'average_stars': 2.33, u'compliments': {}, u'_id': ObjectId('5848df763f22ed58a752af51'), u'elite': []}
+{u'yelping_since': u'2012-07', u'votes': {u'funny': 3, u'useful': 10, u'cool': 1}, u'review_count': 28, u'user_id': u'wPJAusnJ9LIZokRvBadOhA', u'name': u'L', u'type': u'user', u'friends': [u'BTLuHBizGOijgWl65V7Aig'], u'fans': 0, u'average_stars': 3.11, u'compliments': {}, u'_id': ObjectId('5848df763f22ed58a752af52'), u'elite': []}
+{u'yelping_since': u'2012-10', u'votes': {u'funny': 2, u'useful': 26, u'cool': 2}, u'review_count': 16, u'user_id': u'1j4yXg5Lfl9YzeESy4ZMiw', u'name': u'Mike', u'type': u'user', u'friends': [u'I1XJ6wyA9rBgbDBGiDCJfw'], u'fans': 0, u'average_stars': 2.94, u'compliments': {u'note': 1}, u'_id': ObjectId('5848df763f22ed58a752af53'), u'elite': []}
+{u'yelping_since': u'2012-10', u'votes': {u'funny': 0, u'useful': 0, u'cool': 0}, u'review_count': 2, u'user_id': u'GP68togo6XkoHHBE6AUkpg', u'name': u'Breanne', u'type': u'user', u'friends': [], u'fans': 0, u'average_stars': 3.0, u'compliments': {}, u'_id': ObjectId('5848df763f22ed58a752af54'), u'elite': []}
+{u'yelping_since': u'2013-01', u'votes': {u'funny': 0, u'useful': 11, u'cool': 2}, u'review_count': 15, u'user_id': u'yfa-2UVleHpL5Wm20xFlgQ', u'name': u'Christy', u'type': u'user', u'friends': [u'8bidWvCCOzhMNoJTG8RKNQ'], u'fans': 0, u'average_stars': 3.8, u'compliments': {u'funny': 1}, u'_id': ObjectId('5848df763f22ed58a752af55'), u'elite': []}
+{u'yelping_since': u'2013-01', u'votes': {u'funny': 5, u'useful': 18, u'cool': 6}, u'review_count': 15, u'user_id': u'fmUMzhKeU_0O3wKhMEr6iw', u'name': u'K', u'type': u'user', u'friends': [], u'fans': 0, u'average_stars': 4.38, u'compliments': {}, u'_id': ObjectId('5848df763f22ed58a752af56'), u'elite': []}
+{u'yelping_since': u'2013-01', u'votes': {u'funny': 1, u'useful': 2, u'cool': 0}, u'review_count': 3, u'user_id': u'uxJTQh7JXYRx-Vrs1zMJZA', u'name': u'Kelly', u'type': u'user', u'friends': [], u'fans': 0, u'average_stars': 2.67, u'compliments': {}, u'_id': ObjectId('5848df763f22ed58a752af57'), u'elite': []}
+
+
+7. Find the business that has the tip with the most likes :y
+OUTPUT:
+{u'user_id': u'WmAyExqSWoiYZ5XEqpk_Uw', u'text': u'License photographer assured me her photos always came out great. That is false! My head looks like something Super Mario stomps on. Greeeeeaaaaaat.', u'business_id': u'iTLwGhF-NyHGrgoYzGK7xw', u'likes': 11, u'date': u'2015-09-17', u'_id': ObjectId('5848de773f22ed58a74b9e52'), u'type': u'tip'}
+
+
+8.Find the average review_count for users :y
+OUTPUT:{u'_id': 0, u'avg_review_count': 25.757102115486575}
+
+
+9.Find all the users that are considered elite :y
+OUTPUT:35796
+
+
+10.Find the longest elite user :y
+{u'duration': 12, u'_id': ObjectId('5848df8c3f22ed58a7533879')}
+
+
+11.Find Of elite users, whats the average number of years someone is elite :y
+{u'average': 0.16248929439113488, u'_id': 0}
